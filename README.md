@@ -19,14 +19,20 @@
 
 1. Clone the project
 
-```bash
-  git clone https://github.com/SpyzzVVarun/Adobe-Hackathon-Round-1.git
-```
+     ```bash
+       git clone https://github.com/SpyzzVVarun/Adobe-Hackathon-Round-1.git
+     ```
 
 2. Replace the ```private.key``` and ```pdfservices-api-credentials.json``` files with your own credentials. You can get your credentials by following the steps given here: https://developer.adobe.com/document-services/docs/overview/pdf-extract-api/quickstarts/python/#step-one-getting-credentials .
 
-3. Run the extract.py file
+3.  At the command line, run the following command to install the Python SDK
+ 
+     ```bash
+     pip install pdfservices-sdk
+     ```
 
-```bash
-  python3 extract.py
-```
+4. Run the extract.py file
+
+     ```bash
+       python3 extract.py
+     ```
